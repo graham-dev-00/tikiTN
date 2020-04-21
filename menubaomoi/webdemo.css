@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.headerr {
+    background-color: rgb(99, 167, 245);
+}
+
+.dautien {
+    margin: auto;
+    width: 1100px;
+    height: 50px;
+    display: flex;
+}
+
+.logo {
+    background: rgb(99, 167, 245);
+    width: 21.5%;
+    text-align: center;
+}
+
+.logo img {
+    width: 34%;
+}
+
+/* Tim kiem */
+
+.timkiem {
+    display: flex;
+    width: 40%;
+    background: rgb(99, 167, 245);
+    height: 50px;
+}
+
+.timkiem input {
+    font-size: 11px;
+    height: 33px;
+    margin-top: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 80%;
+}
+
+.timkiem button {
+    border-width: 0px;
+    color: rgb(182, 179, 179);
+    font-size: 13px;
+    margin-top: 10px;
+    height: 33px;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+/* User */
+
+.user {
+    width: 40%;
+    background: rgb(91, 163, 245);
+    display: flex;
+}
+
+.donhang {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background: rgb(91, 163, 245);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.donhang i {
+    width: 20px;
+    height: 13px;
+    margin-top: 5px;
+    color: white;
+}
+
+.donhang a {
+    padding-top: 2px;
+    padding-left: 7px;
+    font-family: serif;
+    color: white;
+}
+
+.donhang a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Login */
+
+.login {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background: rgb(91, 163, 245);
+}
+
+.login i {
+    width: 20px;
+    height: 13px;
+    margin-top: 21.5px;
+    color: white;
+}
+
+.login a {
+    padding-top: 18px;
+    font-family: serif;
+    padding-left: 5px;
+    color: white;
+}
+
+.login a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Menu */
+
+div.menu {
+    background-color: rgb(99, 167, 245);
+    height: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.menuauto {
+    background-color: rgb(91, 163, 245);
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    height: 30px;
+    min-width: 1100px;
+}
+
+.danhsach {
+    font-size: 13px;
+    display: flex;
+    background-color: rgb(91, 163, 245);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    ;
+    width: 180px;
+}
+
+.danhsach i {
+    margin: auto;
+    color: white;
+    width: 16px;
+}
+
+.danhsach a {
+    margin: auto;
+    color: white;
+}
+
+.danhsach a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Menu ngang */
+
+ul.menungang li {
+    display: inline;
+}
+
+ul.menungang {
+    margin: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    list-style: none;
+    width: 900px;
+    background-color: rgb(91, 163, 245);
+}
+
+ul.menungang li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+ul.menungang li a:hover {
+    transform: scale(1.1);
+    border-radius: 3px;
+    transition: 0.4;
+    background-color: rgb(10, 133, 248);
+}
+
+/*Center */
+
+.center {
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 1100px;
+    height: 533px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .centerleft {
+    width: 190px;
+  
+}
+
+.centerleft ul {
+    padding: 0px;
+    list-style: none;
+}
+
+/* SMAIL LEFT */
+
+.smailleft {
+   
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-family: segoe ui light;
+    align-items: center;
+    height: 26px;
+
+}
+
+.smailleft:hover {
+    background: rgb(23, 186, 250);
+    text-decoration: none;
+    transition: 0.4;
+}
+
+.icon {
+    width: 39px;
+    text-align: center;
+}
+
+.smailleft1 {
+    padding-top: 1px;
+    padding-left: 2px;
+}
+
+.center .center1 {
+    width: 550px;
+}
+
+.center12 {
+    display: flex;
+}
+
+.center12 img {
+    width: 275px;
+}
+
+/* .myslide .damn{
+    display: none;
+}
+ */
+
+/*   Center right */
+
+.center .centerright {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centerright img {
+    width: 175px;
+    height: 177px;
+}
+
+/*Trending */
+
+.trending {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 61px;
+    width: 1100px;
+    background-color: rgb(231, 230, 230);
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.trending a {
+    margin-left: 760px;
+}
+
+.trending a:hover {
+    text-decoration: none;
+}
+
+.trending span {
+    margin-left: 40px;
+}
+
+/*  Layer */
+
+.layer-img {
+    margin: auto;
+    width: 1100px;
+    height: 300px;
+    background: rgb(151, 14, 14);
+}
+
+.myslide img {
+    height: 300px;
+}
+
+.layer-sneaker {
+    
+}
+
+.layer-dongho {}
+
+.layer-quanao {}
+
+.alo {
+    margin: auto;
+    width: 1100px;
+    height: 50px;
+    background-color: yellowgreen;
+}
